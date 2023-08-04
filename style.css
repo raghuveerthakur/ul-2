@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: auto;
+    padding-inline: 100px;
+    overflow: hidden;
+    
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 10px;
+}
+.navbar ul{
+    width: 30%;
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.navbar ul li button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+#patel{
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+}
+.navbar ul i{
+    font-size: 28px;
+    padding-top: 5px;
+}
+/* section1 */
+.section1{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section1 h2{
+text-align: center;
+font-size: 40px;
+}
+.section1 p{
+    padding-top: 10px;
+    font-size: 20PX;
+}
+.section1 button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.section1 input{
+    width: 270px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding-left: 10px;
+margin-top: 20px;
+font-size: 17px;
+}
+/* section2 */
+.section2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.section3{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+ .box1{
+    width: 270px;
+    height: 270px;
+    border: 1px solid black;
+    padding: 30px;
+    background-color: darkcyan;
+    border-radius: 20px;
+   
+} 
+.box1 h2{
+    padding-top: 10px;
+}
+.box1 h4{
+    padding-top: 10px;
+}
+.box1 hr{
+    margin-top: 10px;
+}
+.box1 p{
+    padding-top: 15px;
+}
+.box1 span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box1 span button{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+
+
+/* responsive */
+@media(max-width:768px){
+
+.container{
+    width: 100%;
+    height: auto;
+    padding-inline: 100px;
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+}
+.navbar ul li {
+    display: none;
+}
+.navbar ul i{
+    width: 100%;
+    height: auto;
+}
+.section1{
+    width: 100%;
+    height: auto;
+}
+.section1 h2{
+    font-size: 30px;
+}
+.section1 span{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+display: flex;
+align-items: center;
+justify-content: center;
+row-gap: 10px;
+}
+.section2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.section3{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+
+}
+.box1{
+    width: 280px;
+    height: 280px;
+
+}
+
+}
